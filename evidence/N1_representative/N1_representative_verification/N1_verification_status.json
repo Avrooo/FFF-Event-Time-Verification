@@ -1,0 +1,8 @@
+{
+  "cases_requested": 4,
+  "raw_available": 4,
+  "cases_reaudited": 4,
+  "failures": [],
+  "all_four_reaudited": true,
+  "qualifier": "Re-execution of same independent-of-solver energy postprocessor; not independent numerical implementation of energy quadrature."
+}

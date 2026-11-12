@@ -1,0 +1,30 @@
+[
+  {
+    "case": "b01_six_layer_segment__v40__dt0.05__corrected",
+    "raw_present": true,
+    "raw_bytes": 433590270,
+    "raw_sha256": "568caac71d8160aa144c3906fc53d8d63f6719f018158918e4dba0b71b07f512",
+    "archived_audit_sha256": "dc75c43ef40e6ccb96cbd54dd7b16b882ed4f4cb1d70dadeae138fb727b208de"
+  },
+  {
+    "case": "b01_six_layer_segment__v40__dt0.05__legacy_timing",
+    "raw_present": true,
+    "raw_bytes": 302539688,
+    "raw_sha256": "faac157043bd0cb7c138c8191666b957cf9ff957c53cca105b038d5116f11bad",
+    "archived_audit_sha256": "a38095b2e07ecffdd3c79ad671deb18364bf7c759f692e0f8f8bbd387c91d8de"
+  },
+  {
+    "case": "independent_serpentine_six_layers__v40__dt0.05__corrected",
+    "raw_present": true,
+    "raw_bytes": 169448843,
+    "raw_sha256": "383a96a7873d13a180f7d7af022fe6732a28e1a5e1fd0ef9e002dff8d365f4a9",
+    "archived_audit_sha256": "1573ec107f643d36d6736a9bc8923b5e6fee030f4fe00acb2de3b2973b7c1ea4"
+  },
+  {
+    "case": "independent_serpentine_six_layers__v40__dt0.05__legacy_timing",
+    "raw_present": true,
+    "raw_bytes": 130448937,
+    "raw_sha256": "d192dc58d4d8affb2309c40036e0df511c16755954938358dd79bbd939b477d2",
+    "archived_audit_sha256": "fdebfba8d5d87fe43c9554722922ad51b4fb2a02033bdd600896f3c25c782a7d"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "audit": {
+    "n": 11724,
+    "heat_in_J": 334.99618199845065,
+    "stored_change_J": -278.05980509141466,
+    "loss_total_J": 280.0703360814049,
+    "natural_conv_J": 37.98474520023906,
+    "forced_conv_J": 0.0,
+    "radiation_J": 90.74454240486905,
+    "bed_net_J": 151.3410484762968,
+    "balance_error_J": 2.0105309899902295,
+    "rel_err_vs_heat_in": 0.006001653445708609,
+    "rel_err_vs_loss": 0.007178664538774471,
+    "negative_control_fan_ignored": {
+      "balance_error_J": 2.0105309899902295,
+      "rel_err_vs_heat_in": 0.006001653445708609
+    },
+    "Tmin_C": 55.274999086312334,
+    "Tmax_C": 213.9871758433788,
+    "t_end_s": 228.02165435706866
+  },
+  "comparison": {
+    "case": "b01_six_layer_segment__v40__dt0.05__corrected",
+    "toolpath": "b01_six_layer_segment",
+    "speed_mm_s": 40,
+    "dt_s": 0.05,
+    "timing_mode": "corrected",
+    "n_elements": 11724,
+    "deposited_heat_J": 334.99618199845065,
+    "stored_change_J": -278.05980509141466,
+    "natural_convection_J": 37.98474520023906,
+    "forced_convection_J": 0.0,
+    "radiation_J": 90.74454240486905,
+    "bed_net_J": 151.3410484762968,
+    "signed_residual_J": 2.0105309899902295,
+    "recomputed_residual_pct": 0.6001653445708609,
+    "original_residual_pct": 0.6001653445708609,
+    "residual_difference_percentage_points": 0.0,
+    "raw_sha256": "568caac71d8160aa144c3906fc53d8d63f6719f018158918e4dba0b71b07f512"
+  },
+  "assumptions": {
+    "h": 3.0,
+    "Tdep": 488.15,
+    "Ta": 298.15,
+    "eps": 0.95,
+    "Tbed": 333.15,
+    "Rc": 0.005
+  }
+}
