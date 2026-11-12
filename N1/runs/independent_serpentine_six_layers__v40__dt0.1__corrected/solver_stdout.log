@@ -1,0 +1,22 @@
+using 1 cpu threads
+reading gcode file |inputfiles/experiment.gcode|
+kx ky kz 0.35,0.35,0.35
+bed contact model: Resistance(0.005)
+convection model: Constant(3.0)
+fan model: FanModel { times: [], speeds: [], h_full: 0.0, exponent: 0.6 }
+legacy switches: Legacy { cp_step: false, timing: false, bed_flag: false, mesh: false }
+xmin 0.06 xmax 0.078 ymin 0.06 ymax 0.07 zmin 0.0002 zmax 0.0012 xdiv 35 ydiv 21 zdiv 7
+time taken to generate model 353.7µs
+writing node and element files
+specific heat capacity and conductivity data files read
+element width 0.00055 element height 0.0002
+starting simulation timestep 0.1
+kx ky kz  0.35 0.35 0.35
+t_env 298.15
+1000 out of 3876, time 14.369009168638584
+2000 out of 3876, time 28.987633566521815
+3000 out of 3876, time 43.398410411928076
+3876 out of 3876, time 116.04767210581633
+simulation ended in 392.2381ms . start writing elemental temperature output file
+writing elemental temperature output file took 610.6375ms
+writing nodal temperature output file took 849.567ms

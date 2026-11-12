@@ -1,0 +1,8 @@
+# Regenerable and potentially large solver outputs
+**/target/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/runs/**/outputfiles/
+**/N0_runs/**/outputfiles/
+*.pyc
+.DS_Store

@@ -1,0 +1,18 @@
+{
+  "toolpath": "independent_serpentine_six_layers",
+  "speed_mm_s": "20",
+  "dt_s": "0.1",
+  "timing_mode": "corrected",
+  "status": "complete",
+  "case": "independent_serpentine_six_layers__v20__dt0.1__corrected",
+  "n_extrusion_moves": 126,
+  "n_elements": 3876,
+  "time_last_stored_s": 170.33403574217937,
+  "mean_final_C": 57.93432927842512,
+  "min_final_C": 55.60864009723957,
+  "max_final_C": 58.87896743166442,
+  "execution_wall_s": 1.8566423000011127,
+  "full_rust_solver": true,
+  "numerical_energy_audit_completed": false,
+  "executable_commit": "d812454cfbb66dd02429acb346efd4b7e5be2dc5"
+}

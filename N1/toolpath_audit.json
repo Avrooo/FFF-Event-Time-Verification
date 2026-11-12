@@ -1,0 +1,34 @@
+{
+  "b01_six_layer_segment": {
+    "name": "b01_six_layer_segment.gcode",
+    "layers": 6,
+    "extruding_moves": 190,
+    "median_extrusion_length_mm": 37.80000000000001,
+    "total_extrusion_length_mm": 6662.800000000001,
+    "all_motion_moves": 320,
+    "z_levels": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.2
+    ]
+  },
+  "independent_serpentine_six_layers": {
+    "name": "independent_serpentine_six_layers.gcode",
+    "layers": 6,
+    "extruding_moves": 126,
+    "median_extrusion_length_mm": 18.0,
+    "total_extrusion_length_mm": 2172.0,
+    "all_motion_moves": 242,
+    "z_levels": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.2
+    ]
+  }
+}

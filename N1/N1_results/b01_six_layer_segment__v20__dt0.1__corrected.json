@@ -1,0 +1,18 @@
+{
+  "toolpath": "b01_six_layer_segment",
+  "speed_mm_s": "20",
+  "dt_s": "0.1",
+  "timing_mode": "corrected",
+  "status": "complete",
+  "case": "b01_six_layer_segment__v20__dt0.1__corrected",
+  "n_extrusion_moves": 190,
+  "n_elements": 11724,
+  "time_last_stored_s": 394.57111331229265,
+  "mean_final_C": 57.70121466991233,
+  "min_final_C": 55.2220639080075,
+  "max_final_C": 58.30688672236619,
+  "execution_wall_s": 21.305977500014706,
+  "full_rust_solver": true,
+  "numerical_energy_audit_completed": false,
+  "executable_commit": "d812454cfbb66dd02429acb346efd4b7e5be2dc5"
+}

@@ -1,0 +1,33 @@
+{
+  "case": "b01_six_layer_segment__v80__dt0.025__legacy_timing",
+  "audit": {
+    "n": 11724,
+    "heat_in_J": 334.99618199845065,
+    "stored_change_J": -275.629378702556,
+    "loss_total_J": 107.45016531927823,
+    "natural_conv_J": 24.018499227369226,
+    "forced_conv_J": 0.0,
+    "radiation_J": 55.73837344131555,
+    "bed_net_J": 27.693292650593452,
+    "balance_error_J": -168.17921338327776,
+    "rel_err_vs_heat_in": 0.5020332243191225,
+    "rel_err_vs_loss": 1.5651833841627771,
+    "negative_control_fan_ignored": {
+      "balance_error_J": -168.17921338327776,
+      "rel_err_vs_heat_in": 0.5020332243191225
+    },
+    "Tmin_C": 57.094710528978965,
+    "Tmax_C": 214.4805932589208,
+    "t_end_s": 144.7469248794567
+  },
+  "storage_threshold_K": 0.1,
+  "assumptions": {
+    "h": 3.0,
+    "Tdep": 488.15,
+    "Ta": 298.15,
+    "eps": 0.95,
+    "Tbed": 333.15,
+    "Rc": 0.005
+  },
+  "legacy_energy_audited_against_true_clock": true
+}

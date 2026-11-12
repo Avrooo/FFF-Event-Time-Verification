@@ -1,0 +1,33 @@
+{
+  "case": "b01_six_layer_segment__v20__dt0.1__corrected",
+  "audit": {
+    "n": 11724,
+    "heat_in_J": 334.99618199845065,
+    "stored_change_J": -278.0852381082443,
+    "loss_total_J": 281.3391415722408,
+    "natural_conv_J": 59.765564130325636,
+    "forced_conv_J": 0.0,
+    "radiation_J": 139.34188435244928,
+    "bed_net_J": 82.23169308946588,
+    "balance_error_J": 3.253903463996494,
+    "rel_err_vs_heat_in": 0.009713255370807609,
+    "rel_err_vs_loss": 0.011565768793536229,
+    "negative_control_fan_ignored": {
+      "balance_error_J": 3.253903463996494,
+      "rel_err_vs_heat_in": 0.009713255370807609
+    },
+    "Tmin_C": 55.2220639080075,
+    "Tmax_C": 212.96108551993825,
+    "t_end_s": 394.57111331229265
+  },
+  "storage_threshold_K": 0.1,
+  "assumptions": {
+    "h": 3.0,
+    "Tdep": 488.15,
+    "Ta": 298.15,
+    "eps": 0.95,
+    "Tbed": 333.15,
+    "Rc": 0.005
+  },
+  "legacy_energy_audited_against_true_clock": true
+}

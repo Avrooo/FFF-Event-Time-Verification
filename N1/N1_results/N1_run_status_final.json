@@ -1,0 +1,9 @@
+{
+  "expected_cases": 36,
+  "completed_simulations": 36,
+  "completed_energy_audits": 36,
+  "complete_pairs": 18,
+  "failures": 0,
+  "source_commit": "d812454cfbb66dd02429acb346efd4b7e5be2dc5",
+  "note": "All energy audits use fixed baseline physical laws and 0.1 K output reconstruction; not physical FLIR validation."
+}

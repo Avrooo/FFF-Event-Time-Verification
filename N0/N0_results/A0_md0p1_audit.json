@@ -1,0 +1,55 @@
+{
+  "case": "A0",
+  "storage_threshold_K": 0.1,
+  "audit_wall_s": 270.87675509997644,
+  "audit": {
+    "n": 51204,
+    "heat_in_J": 1463.0795379612719,
+    "stored_change_J": -1247.3802958205176,
+    "loss_total_J": 1260.5597072110677,
+    "natural_conv_J": 393.26075375749423,
+    "forced_conv_J": 0.0,
+    "radiation_J": 987.8732777122755,
+    "bed_net_J": -120.57432425870198,
+    "balance_error_J": 13.179411390550058,
+    "rel_err_vs_heat_in": 0.009007993788850952,
+    "rel_err_vs_loss": 0.010455205981245363,
+    "negative_control_fan_ignored": {
+      "balance_error_J": 13.179411390550058,
+      "rel_err_vs_heat_in": 0.009007993788850952
+    },
+    "Tmin_C": 42.81053421279205,
+    "Tmax_C": 211.5718743645425,
+    "t_end_s": 989.9573174942203
+  },
+  "clock_reconstruction": {
+    "activation_count": 51204,
+    "first_activation_s": 0.0,
+    "last_activation_s": 929.9573174942719,
+    "physical_deposition_elapsed_s": 929.9573174942719,
+    "reconstructed_deposition_integrated_corrected_s": 929.9573174942719,
+    "reconstructed_deposition_integrated_legacy_s": 2575.245664414414,
+    "reconstructed_exposure_ratio_legacy_vs_corrected": 2.769208452871039,
+    "requested_cooldown_s": 60.0,
+    "legacy_cooldown_integrated_s": 54.797297297297376,
+    "corrected_cooldown_integrated_s": 60.0,
+    "case_uses_legacy_timing": false,
+    "warning": "Reconstructed from activation schedule and reviewed Rust source, not an instrumented internal step counter. The first interval and <=1e-4s skipped intervals are treated as coded."
+  },
+  "parameters": {
+    "h": 3.0,
+    "Tdep": 488.15,
+    "Ta": 298.15,
+    "eps": 0.95,
+    "Tbed": 333.15,
+    "Rc": 0.005,
+    "kbed": 0.17,
+    "size": [
+      0.00055,
+      0.00055,
+      0.0002
+    ]
+  },
+  "gcode_sha256": "d90e2a1f43d7581edc281f98a4b144089fac8a461c36c030ff53c90526e13846",
+  "important": "4 configurations share fixed material settings and G-code. M0/M2 and legacy cp differ by definition; common accounting method is used with model-specific documented boundary law. Underlying energy audit uses CORRECT physical clock and cp table for all models. No fan."
+}

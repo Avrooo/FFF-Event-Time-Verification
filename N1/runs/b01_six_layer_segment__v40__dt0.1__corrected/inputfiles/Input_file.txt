@@ -1,0 +1,39 @@
+----Input File----
+Number_of_threads: 1 // N1 fixed experiment
+GCode_file: inputfiles/experiment.gcode // N1 fixed experiment
+divisions_per_bead_width: 1 // N1 fixed experiment
+divisions_per_bead_height: 1 // N1 fixed experiment
+beadwidth: 0.00055 // N1 fixed experiment
+beadheight: 0.0002 // N1 fixed experiment
+model_type: 2 // N1 fixed experiment
+specific_heat_capacity_file: inputfiles/sp_heat_cap_data.csv // temperature vs specific heat capacity, the temperature data should be equally spaced and in ascending order of temperature
+specific_heat_capacity_file_temp_step: 1 // N1 fixed experiment
+kx: 0.35 // N1 fixed experiment
+ky: 0.35 // N1 fixed experiment
+kz: 0.35 // N1 fixed experiment
+density: 1271.1 // N1 fixed experiment
+convective_heat_transfer_film_coefficient: 3.0 // N1 fixed experiment
+bed_temperature: 333.15 // N1 fixed experiment
+conductivity_at_bed_surface_interface: 0.17 // N1 fixed experiment
+ambient_temperature: 298.15 // N1 fixed experiment
+extrusion_temperature: 488.15 // N1 fixed experiment
+emissivity: 0.95 // N1 fixed experiment
+time_step: 0.1 // N1 fixed experiment
+cooldown_period: 60.0 // N1 fixed experiment
+nodes_file_output: outputfiles/nodefile.csv // x,y,z coordinate of nodes
+element_file_output: outputfiles/elementfile.csv // 8 noded hexahedral element consistent with Abaqus 
+activation_times_output: outputfiles/activation_times.csv // element number and activation time
+abaqus_input_mesh_file: outputfiles/abaqus_input.inp 
+element_temperature_file_output: outputfiles/elem_temps.csv 
+element_min_temp_diff_store: 0.1 // N1 fixed experiment
+nodal_temperature_file_output: NUL // N1 fixed experiment
+turn_off_layers_at: 1000 // N1 fixed experiment
+
+bed_contact_model: 2 // N1 fixed experiment
+bed_contact_resistance: 0.005 // N1 fixed experiment
+convection_model: 0 // N1 fixed experiment
+fan_model: 0 // N1 fixed experiment
+legacy_cp_step: 0 // N1 fixed experiment
+legacy_bed_flag: 0 // N1 fixed experiment
+legacy_mesh: 0 // N1 fixed experiment
+legacy_timing: 0 // N1 fixed experiment

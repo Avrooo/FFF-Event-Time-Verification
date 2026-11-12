@@ -1,0 +1,33 @@
+{
+  "case": "independent_serpentine_six_layers__v40__dt0.1__corrected",
+  "audit": {
+    "n": 3876,
+    "heat_in_J": 110.75104072217562,
+    "stored_change_J": -91.5304670091995,
+    "loss_total_J": 91.5551645981184,
+    "natural_conv_J": 4.872074412531654,
+    "forced_conv_J": 0.0,
+    "radiation_J": 12.999985122300252,
+    "bed_net_J": 73.68310506328649,
+    "balance_error_J": 0.024697588918897395,
+    "rel_err_vs_heat_in": 0.00022300096466680165,
+    "rel_err_vs_loss": 0.00026975637067889633,
+    "negative_control_fan_ignored": {
+      "balance_error_J": 0.024697588918897395,
+      "rel_err_vs_heat_in": 0.00022300096466680165
+    },
+    "Tmin_C": 56.06532363776307,
+    "Tmax_C": 214.00100144804543,
+    "t_end_s": 116.04767210581633
+  },
+  "storage_threshold_K": 0.1,
+  "assumptions": {
+    "h": 3.0,
+    "Tdep": 488.15,
+    "Ta": 298.15,
+    "eps": 0.95,
+    "Tbed": 333.15,
+    "Rc": 0.005
+  },
+  "legacy_energy_audited_against_true_clock": true
+}
