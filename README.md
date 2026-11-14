@@ -20,7 +20,9 @@ From the repository root:
 python scripts/check_archived_results.py
 ```
 
-This checks that the eight N0 entries and 36 N1 entries are present, verifies the paper's Table 2 values, Table 3 summary values and the four selected N1 re-audit values. It is a **consistency check of archived data**, not fresh solver reproduction.
+This checks that the eight N0 entries and 36 N1 entries are present, verifies the archived values corresponding to the paper's Table 3 (complete-print energy accounting), Table 4 (operating-condition sensitivity), and the four selected N1 re-audit values. This is a consistency check of archived data, not fresh solver reproduction.
+
+
 
 ## Regenerate the numerical results (Windows 10/11)
 
